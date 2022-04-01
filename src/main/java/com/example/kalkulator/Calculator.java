@@ -1,8 +1,6 @@
 package com.example.kalkulator;
 
 public class Calculator {
-    int a;
-    int b;
     int result;
 
     public void addition(int a, int b){
@@ -15,11 +13,9 @@ public class Calculator {
     }
 }
 class Main{
-
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         calculator.addition(10,5);
         calculator.subtraction(25,8);
-
     }
 }
